@@ -1,0 +1,73 @@
+.colorOrange{
+    background-color: #FF9F00;
+    ;
+}
+
+.bgInput{
+    background-color: #D2D2D2;
+    border: 1px grey solid;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.sectionPedding{
+    padding: 0 100px;
+}
+
+.containerLanding{
+    background-image: url("../src/media/background.jpg");
+    height: 96vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.searchInput input:focus{
+    outline:none
+}
+
+/* style landing */
+.landingNav{
+    display: flex;
+    height: 9vh;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.landingNav .logo{
+    flex: 50%;
+    margin-left: 80px;
+}
+
+.landingNav .button{
+    flex: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}
+
+.landing{
+    height: 91vh;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+.landingLeft{
+    flex: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 0 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landingRight{
+    flex: 50%;
+    /* background-color: blue; */
+}
+
